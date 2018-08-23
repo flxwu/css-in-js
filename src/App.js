@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import StyledComponents from './components/StyledComponents';
 import Radium from './components/Radium';
+import ReactDemo from './components/ReactDemo';
 import logo from './css-in-js.png';
 import './App.css';
 
@@ -13,6 +14,8 @@ class App extends Component {
           <h1 className="App-title">CSS in JS Demo</h1>
           <h4>(Using plain CSS)</h4>
         </header>
+        <hr/>
+        <ReactDemo/>
         <hr/>
         <StyledComponents/>
         <hr/>
